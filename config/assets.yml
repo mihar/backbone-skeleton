@@ -1,0 +1,29 @@
+compress_assets: off
+
+stylesheets:
+  app:
+    - public/css/application.css
+javascripts:
+  common:
+    - public/js/_lib/jquery.cookie.js
+    - public/js/_lib/Recorder.js
+    - public/js/_lib/BrowserDetect.js
+  app:
+    - public/js/ns.js
+    - public/js/models/**/*.js
+    - public/js/views/**/*.js
+    - public/js/Router.js
+    - public/js/Video.js
+    - public/js/VideoFlash.js
+    - public/js/VideoHTML5.js
+    - public/js/VideoYouTube.js
+    - public/js/VideoVimeo.js
+    - public/js/Audio.js
+    - public/js/Recorder.js
+    - public/js/Kombajn.js
+    - public/js/Control.js
+    - public/js/Events.js
+    - public/js/App.js
+    - public/js/log.js
+    - public/js/track.js
+    - public/js/init.js

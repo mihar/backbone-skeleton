@@ -1,0 +1,10 @@
+.DS_Store
+.sass-cache
+.bundle
+*.sassc
+tmp/
+client/public/js/*
+!client/public/js/_lib
+client/public/assets
+client/public/css
+client/public/*.html
