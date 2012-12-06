@@ -1,29 +1,35 @@
-compress_assets: off
+# Jammit assets configuration file.
+# We specify here how to combine and compress our static assets.
+# Smaller files and less requests.
 
+# Have this on 'off' when developing and use 'on' for production.
+compress_assets: off # on
+
+# CSS
 stylesheets:
   app:
-    - public/css/application.css
+    - public/css/*.css
+
+# JS
 javascripts:
+  # Make a separate file consisting of external libraries.
+  # We include the whole _lib directory here by default.
+  #
+  # If load order is important, for example is you have jQuery here, 
+  # instead of the splat, list all the files in the order you desire.
   common:
-    - public/js/_lib/jquery.cookie.js
-    - public/js/_lib/Recorder.js
-    - public/js/_lib/BrowserDetect.js
+    - public/js/_lib/*.js
+
+  # This is our Backbone application.
+  # We combine all the different bits and pieces into a coherent whole.
+  #
+  # Note that order is paramount here. 
+  # Add your own files as you please, but keep in mind the sequence.
   app:
     - public/js/ns.js
     - public/js/models/**/*.js
     - public/js/views/**/*.js
     - public/js/Router.js
-    - public/js/Video.js
-    - public/js/VideoFlash.js
-    - public/js/VideoHTML5.js
-    - public/js/VideoYouTube.js
-    - public/js/VideoVimeo.js
-    - public/js/Audio.js
-    - public/js/Recorder.js
-    - public/js/Kombajn.js
-    - public/js/Control.js
-    - public/js/Events.js
     - public/js/App.js
     - public/js/log.js
-    - public/js/track.js
     - public/js/init.js

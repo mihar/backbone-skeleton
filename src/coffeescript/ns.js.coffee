@@ -1,0 +1,3 @@
+##
+## NAMESPACE
+class window.BBNS
