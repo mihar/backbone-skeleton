@@ -1,3 +1,64 @@
+=helvetica
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif
+=helvetica-light
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif
+  font-weight: 300
+=helvetica-ulight
+  font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', Arial, Helvetica, sans-serif
+  font-weight: 100
+=cfix
+  display: inline-block
+  display: block
+  &:after
+    clear: both
+    content: " "
+    display: block
+    font-size: 0
+    line-height: 0
+    visibility: hidden
+    width: 0
+    height: 0
+  * html &
+    height: 1%
+
 *
   margin: 0
   padding: 0
+
+body
+  background: #efefef
+  color: #444
+  text-shadow: 0px 1px 0px #fff
+  margin: 50px auto
+  width: 960px
+  line-height: 1.4em
+  +helvetica-light
+
+h1
+  margin-bottom: 1em
+  padding: 0 25px
+  font-weight: bold
+  +helvetica
+
+.lorem
+  +cfix
+
+p
+  margin: 0.7em 0
+  width: 430px
+  padding: 0 25px
+  float: left
+
+footer
+  margin-top: 50px
+  border-top: 1px solid #dfdfdf
+  color: #999
+  a
+    color: #999
+  .inner
+    border-top: 1px solid #fff
+    padding: 25px
+  .author
+    text-decoration: none
+    &:hover
+      text-decoration: underline

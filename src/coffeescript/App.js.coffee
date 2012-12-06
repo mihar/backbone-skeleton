@@ -27,7 +27,7 @@ class BBNS.App
     # @events.on 'video:processed', @cancel_unload_handler, this
 
     # Initialize main views.
-    BBNS.overlay = new BBNS.OverlayView
+    BBNS.root_view = new BBNS.RootView
     
     @events.on 'init:dom:end', -> 
       @events.t 'init:end'
@@ -39,13 +39,16 @@ class BBNS.App
 
     @events.t 'init:dom:start'
 
+    # Setup DOM.
+    $('#main').append BBNS.root_view.render().el
+    
     # Setup router.
     @router = new BBNS.Router
 
-    # Setup DOM.
-    $('body').append BBNS.overlay.el
 
     @events.t 'init:dom:end'
+
+  root: -> BBNS.root_view.show 'Root route'
 
   setup_unload_handler: ->
     return if window.onbeforeunload

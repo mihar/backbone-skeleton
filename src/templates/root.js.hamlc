@@ -1,0 +1,31 @@
+%h1 Place holder for the heading
+.lorem
+  %p 
+    Lorem ipsum dolor sit amet, Simon Talek consectetur adipisicing elit. Curabitur non massa ac tellus ullamcorper eleifend. Nam quis felis massa, feugiat porta augue. Fusce quis enim quis lectus varius congue. Duis egestas massa quis sapien tempus fermentum sollicitudin ligula condimentum. Sed eleifend euismod placerat. Donec quis ipsum nisi, ac dapibus dolor. Nulla quis leo non odio porttitor semper vel vitae ligula. Morbi non turpis lorem, nec vestibulum nulla. Donec placerat malesuada ante.
+
+  %p 
+    Duis aute irure dolor in reprehenderit in voluptate velit esse Simon cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt Talek mollit anim id est laborum. Fusce malesuada rhoncus gravida. Sed tempus lacus ut lacus pulvinar facilisis. In hac habitasse platea dictumst. Donec sapien nisl, convallis eget lobortis lacinia, laoreet eget purus. Integer luctus sapien ut odio congue ornare. Aliquam tempus vestibulum volutpat. Morbi lectus metus, imperdiet ut feugiat id, viverra tempus purus.
+
+  %p
+    Nulla aliquet sollicitudin velit, at hendrerit nunc faucibus vitae. Nunc viverra suscipit felis sed egestas. Etiam sit amet augue metus, placerat placerat lacus. Suspendisse sit amet tortor mauris, id convallis enim. Vestibulum interdum vehicula arcu. 
+
+  %p 
+    Proin scelerisque, justo sit amet faucibus blandit, massa dui tristique nulla, non luctus ipsum arcu vitae neque. Nunc at est lectus. Duis mi quam, eleifend a lobortis eget, interdum in nisl. Phasellus pretium condimentum enim, tincidunt accumsan lacus viverra a.
+
+  %p
+    In hac habitasse platea dictumst. Donec laoreet massa vel lectus fringilla id tincidunt elit cursus. Morbi pulvinar ante eu nunc aliquet sed euismod eros sodales. Mauris viverra purus eget metus egestas id consequat ipsum viverra. Phasellus in velit a odio imperdiet sollicitudin. Donec tempus imperdiet felis, sed adipiscing quam semper vehicula. Duis cursus est mauris. Ut congue rutrum erat id adipiscing. Sed sodales eros vel nisi iaculis vitae ultrices purus blandit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut sollicitudin congue tincidunt.
+
+  %p
+    Nulla aliquet sollicitudin velit, at hendrerit nunc faucibus vitae. Nunc viverra suscipit felis sed egestas. Etiam sit amet augue metus, placerat placerat lacus. Suspendisse sit amet tortor mauris, id convallis enim. Vestibulum interdum vehicula arcu. 
+
+  %p 
+    Proin scelerisque, justo sit amet faucibus blandit, massa dui tristique nulla, non luctus ipsum arcu vitae neque. Nunc at est lectus. Duis mi quam, eleifend a lobortis eget, interdum in nisl. Phasellus pretium condimentum enim, tincidunt accumsan lacus viverra a.
+
+%footer
+  .inner
+    Backbone Skeleton
+    %small
+      by
+      %a.author{href: 'http://miha.rebernik.info'} Miha Rebernik
+    %br
+    %a{href: 'https://github.com/mihar/backbone-skeleton'} https://github.com/mihar/backbone-skeleton
