@@ -160,6 +160,11 @@ in the `DOM load` and other events.
 
 A custom logging function. Nothing fancy here, just outputs the timestamp and ensures that things don't break even if `window.console` isn't defined.
 
+It features also logging at different levels. For example, if you set `debug` to `6` in `App.js.coffee`, you will see all the app-wide events
+that are being triggered:
+
+![](http://media.tumblr.com/tumblr_mexoeq6AZ11qahol6.png)
+
 ##### `ns.js.coffee`
 
 Here we declare our root name space. All other files declare properties of this root name space.
