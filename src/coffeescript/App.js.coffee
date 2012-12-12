@@ -29,6 +29,7 @@ class BBNS.App
     # Initialize main views.
     BBNS.root_view = new BBNS.RootView
     
+    # When DOM finishes, all the initialization is done.
     @events.on 'init:dom:end', -> 
       @events.t 'init:end'
     , this
@@ -45,11 +46,15 @@ class BBNS.App
     # Setup router.
     @router = new BBNS.Router
 
-
+    # Signal DOM setup end.
     @events.t 'init:dom:end'
 
-  root: -> BBNS.root_view.show 'Root route'
+  # The root method manipulates the view.
+  root: -> BBNS.root_view.show 'Skeleton closet'
 
+
+
+  # Unload handlers.
   setup_unload_handler: ->
     return if window.onbeforeunload
     BBNS.log 'Setting up unload handler to prevent work loss.'
