@@ -217,6 +217,7 @@ Once Bundler completes the installation, we can try starting Guard, to immediate
 
     $ bundle exec guard
 
+Press enter at the prompt to have Guard process the Guardfile.
 While leaving guard running, go to another terminal and let's fire up a simple, bundled Ruby web server, that we'll use for development. The server will install all of it's dependencies by itself.
 
     $ rake server
