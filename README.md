@@ -128,7 +128,7 @@ Into `templates/` Guard compiles your HAML Coffee templates, that you use in Bac
 
 ### `server/`
 
-This irectory houses the Ruby/Sinatra web server. Consult the main `app.rb` file, where you can play with your server-side, mock up and API, etc.
+This directory houses the Ruby/Sinatra web server. Consult the main `app.rb` file, where you can play with your server-side, mock up and API, etc.
 
 ### `src/`
 
